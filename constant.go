@@ -8,8 +8,12 @@ func main() {
 	const phi = 3.14
 	fmt.Println("Phi in circle value is: ", phi)
 
-	const firstName string = "Taufiq"
-	const lastName = "Kurniawan"
+	// constant multiple variable
+	const (
+		firstName string = "Taufiq"
+		lastName         = "Kurniawan"
+	)
+
 	fmt.Println(firstName)
 	fmt.Println(lastName)
 
